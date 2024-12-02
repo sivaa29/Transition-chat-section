@@ -1,0 +1,49 @@
+/* Sidebar container */
+.sidebar {
+    width: 270px;
+    height: 892.48px;
+    background-color: #0d1424;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  }
+  
+  /* Sidebar logo */
+  .sidebar-header {
+    justify-content: center;
+    display: flex;
+  }
+  .company-logo{
+    margin-top: 10px;
+  }
+  
+  /* Sidebar menu list */
+  .sidebar-menu {
+    list-style: none;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .icon {
+    font-size: 18px;
+    margin-right: 10px;
+    width: 19.83;
+    height: 22.67px;
+  }
+  
+
+  .item {
+    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    width: 151px;
+    height: 27px;
+    color: #9ea0b3;
+  }
+  
