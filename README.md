@@ -1,6 +1,6 @@
 Responsive Dashboard - README
 Overview
-This project is a responsive dashboard built with React and CSS, aiming to replicate the given design with pixel-perfect precision. The dashboard includes multiple components such as a Sidebar, Navbar, Chat Section, User Details, Widgets, and other essential UI features. It emphasizes clean, modular code and responsiveness for various screen sizes.
+This project is a responsive dashboard built with React and CSS, aiming to replicate the given design with pixel-perfect precision. The dashboard includes multiple components such as a Sidebar, Header, Chat Section, User Details, Widgets, and other essential UI features. It emphasizes clean, modular code and responsiveness for various screen sizes.
 
 Table of Contents
 
@@ -16,42 +16,13 @@ License
 Features
 
 Sidebar Navigation: Displays a list of menu items with icons and hover effects.
-Navbar: Contains a search bar, notifications, and user profile actions.
+Header: Contains a search bar, notifications, and user profile actions.
 Chat Section: A fully functional chat interface with sender/receiver messages, timestamps, and input functionality.
 User Details Section: Displays user information and stats in a visually appealing manner.
 Widgets Section: Includes various utility widgets like quick actions and case favorites.
 Fully responsive design using CSS Grid and Flexbox.
 Clean and modular architecture for easy maintenance and scalability.
-
-Project Structure
-
-responsive-dashboard/
-├── public/                 
-│   ├── index.html          
-│   └── favicon.ico        
-├── src/                    
-│   ├── components/         
-│   │   ├── Sidebar/        
-│   │   │   ├── Sidebar.js  
-│   │   │   └── Sidebar.css 
-│   │   ├── Header/         
-│   │   │   ├── Header.js   
-│   │   │   └── Header.css  
-│   │   ├── ChatSection/    
-│   │   │   ├── ChatSection.js  
-│   │   │   └── ChatSection.css 
-│   │   ├── UserDetails/    
-│   │   │   ├── UserDetails.js 
-│   │   │   └── UserDetails.css 
-│   │   └── Widgets/        
-│   │       ├── Widgets.js      
-│   │       └── Widgets.css     
-│   ├── App.js                
-│   ├── App.css               
-│   └── index.js              
-├── package.json              
-├── README.md                 
-└── .gitignore        
+       
 
 Installation and Setup
 
@@ -73,15 +44,19 @@ Component Details
 1. Sidebar
 A vertical navigation bar with menu options and icons.
 Highlights the active menu item.
+
 2. Header
 Contains a search bar and user-related actions.
 Fully responsive to adapt to smaller screens.
-3. Chat Section
+
+4. Chat Section
 Displays chat messages with distinct styles for sender and receiver.
 Includes timestamps and a text input field with a "Send" button.
-4. User Details
+
+5. User Details
 A responsive card displaying user-specific data.
 Uses CSS Grid for layout flexibility.
-5. Widgets
+
+6. Widgets
 Includes utilities like Case Favorites and Quick Actions.
 Fully responsive with adaptive layouts.
